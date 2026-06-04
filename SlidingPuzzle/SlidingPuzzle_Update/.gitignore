@@ -1,0 +1,7 @@
+library/
+temp/
+build/
+local/
+.vs/
+*.user
+node_modules/
