@@ -1,0 +1,84 @@
+CLAUDE.md
+Tôi đang làm game "[TÊN GAME]" bằng Cocos Creator 3.8.8 và VSCode.
+Hãy tạo file `CLAUDE.md` ở thư mục gốc của project với chính xác nội dung dưới đây.
+File này dùng để bạn (Claude Code) ghi nhớ bối cảnh và tuân thủ quy tắc trong suốt quá trình hỗ trợ tôi.
+
+---
+
+# CLAUDE.md — [TÊN GAME]
+
+## Bối cảnh dự án
+- **Game:** [TÊN GAME]
+- **Engine:** Cocos Creator 3.8.8
+- **IDE:** VSCode
+- **Hướng màn hình:** [Dọc (Portrait) / Ngang (Landscape)]
+- **Độ phân giải thiết kế:** [VD: 720 x 1280]
+- **Ngôn ngữ code:** TypeScript (`.ts`)
+
+## Vai trò của Claude
+Claude phụ trách toàn bộ phần code. Claude tự tạo và viết các file code theo yêu cầu của tôi.
+
+## Phạm vi file (BẮT BUỘC)
+- Chỉ tạo và chỉnh sửa file `.ts` nằm trong thư mục `assets/Scripts/`.
+- Không động vào bất kỳ file nào ngoài phạm vi trên trừ khi được yêu cầu rõ ràng.
+  (Không sửa `.scene`, `.prefab`, `.meta`, file cấu hình project, asset, v.v.)
+
+## Nguyên tắc viết code
+- Tạo **đúng, đủ, không tạo thừa** file / hàm / biến / class.
+- Code **sạch, không lan man**, không thêm tính năng ngoài yêu cầu.
+- Khi sửa lỗi hoặc chỉnh sửa: **chỉ tập trung đúng phần cần sửa**.
+  Không tự ý thêm hoặc xóa các phần code không nằm trong yêu cầu.
+- Không refactor, không đổi cấu trúc hay logic ngoài phạm vi được yêu cầu.
+
+## Quy tắc comment
+- Mọi comment giải thích logic đều viết bằng **tiếng Việt**.
+- Chỉ comment khi lý do **KHÔNG hiển nhiên** từ tên biến/hàm.
+  Ưu tiên đặt tên biến/hàm **tự mô tả** thay vì viết comment thừa.
+
+## Quy trình làm việc
+Sau khi viết hoặc sửa code, Claude phải **hướng dẫn tôi chi tiết nhất có thể**
+các bước thao tác bên trong Cocos Creator để ráp game, bao gồm (khi liên quan):
+- Tạo / cấu hình Scene, Canvas, Node.
+- Gắn script (component) vào Node nào, đặt ở đâu.
+- Tạo và cấu hình Prefab.
+- Kéo-thả tham chiếu vào các thuộc tính `@property` của script.
+- Thiết lập UI cho màn hình [Dọc/Ngang] [độ phân giải] (Widget, anchor, layout).
+Hướng dẫn trình bày theo từng bước rõ ràng, dễ làm theo cho người mới.
+
+---
+
+Sau khi tạo xong file `CLAUDE.md`, hãy xác nhận lại với tôi và tóm tắt ngắn gọn các quy tắc bạn sẽ tuân theo.
+
+
+
+PLAN.md
+Hãy tạo file PLAN.md ở thư mục gốc của project, tổng hợp toàn bộ mô tả game 
+mà chúng ta đã bàn trong phiên này. Mục tiêu: khi tôi mở một phiên Claude Code 
+mới, chỉ cần đọc PLAN.md (cùng với CLAUDE.md) là bạn hiểu được đầy đủ về game 
+và các vấn đề liên quan, đủ để đề xuất hướng phát triển tiếp theo mà không cần 
+tôi giải thích lại từ đầu.
+
+Lưu ý: CLAUDE.md đã chứa quy định, vai trò và phạm vi bạn được làm — nên KHÔNG 
+lặp lại những thứ đó trong PLAN.md. PLAN.md chỉ tập trung vào nội dung game.
+
+File cần ghi rõ các mục sau:
+
+1. TỔNG QUAN GAME: tên game, thể loại, ý tưởng cốt lõi, đối tượng người chơi, 
+   và "điểm hấp dẫn" khiến game khác biệt.
+2. GAMEPLAY CHÍNH: vòng lặp gameplay (gameplay loop), người chơi làm gì từng 
+   phút, mục tiêu thắng/thua, cảm giác muốn mang lại.
+3. CÁC HỆ THỐNG (systems/mechanics): mô tả chi tiết từng cơ chế đã thiết kế 
+   (ví dụ: chiến đấu, nâng cấp, kinh tế, tiến trình...), cách chúng liên kết 
+   với nhau.
+4. THẾ GIỚI / CỐT TRUYỆN / NHÂN VẬT: bối cảnh, lore, nhân vật chính (nếu có).
+5. NỘI DUNG ĐÃ CÓ vs CHƯA CÓ: phần nào đã thiết kế/triển khai xong, phần nào 
+   mới là ý tưởng, phần nào còn để ngỏ.
+6. KỸ THUẬT: engine/ngôn ngữ/thư viện đang dùng, cấu trúc thư mục và các file 
+   chính, ngắn gọn thôi.
+7. VẤN ĐỀ & CÂU HỎI ĐANG MỞ: các vấn đề thiết kế chưa giải quyết, đánh đổi 
+   (trade-off) còn phân vân, lỗi hoặc giới hạn đã biết.
+8. ĐỊNH HƯỚNG PHÁT TRIỂN: các hướng/ý tưởng mở rộng tiềm năng, sắp theo độ 
+   ưu tiên, để phiên mới có thể dựa vào đó mà đề xuất.
+
+Viết rõ ràng, đầy đủ chi tiết về thiết kế game, ưu tiên giữ lại lý do đằng sau 
+các quyết định. Đừng chép code vào file — chỉ mô tả và lý do.

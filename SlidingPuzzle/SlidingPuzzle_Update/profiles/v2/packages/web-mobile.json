@@ -14,7 +14,25 @@
       "mainBundleCompressionType": "merge_dep",
       "platform": "web-mobile",
       "name": "SlidingPuzzle",
-      "startScene": "c3ae968a-6ce2-4f43-b9dd-bdca78aaf904"
+      "startScene": "3b4794ed-fff3-4c8e-b45e-b0d1deae5fac",
+      "scenes": [
+        {
+          "url": "db://assets/MenuScene.scene",
+          "uuid": "3b4794ed-fff3-4c8e-b45e-b0d1deae5fac"
+        },
+        {
+          "url": "db://assets/EasyScene.scene",
+          "uuid": "f009e955-00e0-4252-8a0c-b8d22d2d0502"
+        },
+        {
+          "url": "db://assets/MediumScene.scene",
+          "uuid": "96761625-0912-4082-a681-8b4181f95c83"
+        },
+        {
+          "url": "db://assets/HardScene.scene",
+          "uuid": "b50814ae-40bf-42c3-b191-94b497e684b8"
+        }
+      ]
     },
     "taskOptionsMap": {
       "1780472849321": {

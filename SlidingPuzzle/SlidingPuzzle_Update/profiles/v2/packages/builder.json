@@ -1,7 +1,7 @@
 {
   "__version__": "1.3.9",
   "log": {
-    "level": 1
+    "level": 4
   },
   "common": {
     "binGroupConfig": {
@@ -13,23 +13,23 @@
     },
     "scenes": [
       {
-        "url": "db://assets/MediumScene.scene",
-        "uuid": "c42a070b-46aa-4b59-a78b-1a8588757cf4"
-      },
-      {
         "url": "db://assets/MenuScene.scene",
-        "uuid": "c3ae968a-6ce2-4f43-b9dd-bdca78aaf904"
+        "uuid": "3b4794ed-fff3-4c8e-b45e-b0d1deae5fac"
       },
       {
         "url": "db://assets/EasyScene.scene",
         "uuid": "f009e955-00e0-4252-8a0c-b8d22d2d0502"
       },
       {
+        "url": "db://assets/MediumScene.scene",
+        "uuid": "96761625-0912-4082-a681-8b4181f95c83"
+      },
+      {
         "url": "db://assets/HardScene.scene",
-        "uuid": "1acc93b0-a6ae-4e28-9107-1272c1a11025"
+        "uuid": "b50814ae-40bf-42c3-b191-94b497e684b8"
       }
     ],
-    "startScene": "c3ae968a-6ce2-4f43-b9dd-bdca78aaf904",
+    "startScene": "3b4794ed-fff3-4c8e-b45e-b0d1deae5fac",
     "name": "SlidingPuzzle",
     "buildPath": "project://build",
     "outputName": "web-mobile",
@@ -44,8 +44,8 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "6-5-2026 02:21:04 build success in 19 s!",
-        "detailMessage": "// ---- build task adsense-h5g-plugin：onAfterBuild ----\r",
+        "message": "6-18-2026 11:29:00 build success in 25 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
         "options": {
           "name": "SlidingPuzzle",
           "server": "",
@@ -88,25 +88,25 @@
           "useSplashScreen": true,
           "bundleCommonChunk": false,
           "packAutoAtlas": true,
-          "startScene": "c3ae968a-6ce2-4f43-b9dd-bdca78aaf904",
+          "startScene": "3b4794ed-fff3-4c8e-b45e-b0d1deae5fac",
           "outputName": "web-mobile",
           "taskName": "web-mobile",
           "scenes": [
             {
-              "url": "db://assets/MediumScene.scene",
-              "uuid": "c42a070b-46aa-4b59-a78b-1a8588757cf4"
-            },
-            {
               "url": "db://assets/MenuScene.scene",
-              "uuid": "c3ae968a-6ce2-4f43-b9dd-bdca78aaf904"
+              "uuid": "3b4794ed-fff3-4c8e-b45e-b0d1deae5fac"
             },
             {
               "url": "db://assets/EasyScene.scene",
               "uuid": "f009e955-00e0-4252-8a0c-b8d22d2d0502"
             },
             {
+              "url": "db://assets/MediumScene.scene",
+              "uuid": "96761625-0912-4082-a681-8b4181f95c83"
+            },
+            {
               "url": "db://assets/HardScene.scene",
-              "uuid": "1acc93b0-a6ae-4e28-9107-1272c1a11025"
+              "uuid": "b50814ae-40bf-42c3-b191-94b497e684b8"
             }
           ],
           "wasmCompressionMode": false,
@@ -118,7 +118,7 @@
           "__version__": "1.3.9",
           "logDest": "project://temp/builder/log/web-mobile6-3-2026 14-47.log"
         },
-        "time": "6-5-2026 02:20:45",
+        "time": "6-18-2026 11:28:34",
         "dirty": false
       }
     }
